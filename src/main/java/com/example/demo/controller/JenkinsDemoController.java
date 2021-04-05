@@ -12,6 +12,7 @@ public class JenkinsDemoController {
     public Object getHelloWorld()  {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("jsonObject","HelloWorld");
+        System.out.println("输出日志------------------------------");
         return jsonObject;
     }
 }
